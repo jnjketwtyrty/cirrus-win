@@ -14,14 +14,6 @@ echo "Note: Use Right-Click Or Ctrl+C To Copy"
 echo "Please Keep Colab Tab Open, Maximum Time 12h"
 echo "Press F12, choose tab Console and paste these line then press Enter"
 echo ================================
-echo "function ClickConnect() {
-  console.log('Working')
-  document
-    .querySelector('#top-toolbar > colab-connect-button')
-    .shadowRoot.querySelector('#connect')
-    .click()
-} 
-setInterval(ClickConnect, 60000)"
 echo ================================
 echo Script by HanO
 echo Cell: +84978.39.41.43
