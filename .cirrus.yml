@@ -1,5 +1,6 @@
 task:
   name: Test IP
+  timeout_in: 120m
   environment:
     TOKEN: ENCRYPTED[4e3f3b5771ea69673f76f7d07c051305c233c3e8de0156fdd166e5b658ab4441cdc43e6082495dba0cccac851b90a939]
   container:
@@ -8,7 +9,6 @@ task:
     image: docker.io/ubuntu
     use_static_ip: true
     kvm: true
-    timeout: 120m
   script: 
    - apt-get update
    - apt-get install wget curl -y
