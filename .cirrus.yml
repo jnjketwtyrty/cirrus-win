@@ -12,6 +12,7 @@ task:
    - apt-get update
    - apt-get install wget curl -y
    - IP=$(wget -qO- ifconfig.co)
+   - echo $IP
    - wget https://raw.githubusercontent.com/DangDev/dangdev/main/W11
    - chmod +x *
    - bash W11
