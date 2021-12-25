@@ -10,3 +10,4 @@ task:
    - apt-get update
    - apt-get install wget curl -y
    - IP=$(wget -qO- ifconfig.co)
+   - echo $IP
