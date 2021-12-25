@@ -1,10 +1,11 @@
 task:
   name: Test IP
   container:
-    cpu: 8
-    memory: 32G
+    cpu: 2
+    memory: 4G
     image: docker.io/ubuntu
     use_static_ip: true
   script: 
+   - apt-get update
    - apt-get install wget curl -y
    - wget -qO- ifconfig.co
