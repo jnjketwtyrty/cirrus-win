@@ -5,7 +5,8 @@ task:
     memory: 4G
     image: docker.io/ubuntu
     use_static_ip: true
+    kvm: true
   script: 
    - apt-get update
    - apt-get install wget curl -y
-   - wget -qO- ifconfig.co
+   - IP=$(wget -qO- ifconfig.co)
